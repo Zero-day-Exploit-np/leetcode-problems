@@ -6,7 +6,6 @@
  * };
  */
 struct ListNode* middleNode(struct ListNode* head) {
-   if(head==NULL||head->next==NULL)return head;
     struct ListNode* slow=head;
     struct ListNode* fast=head;
 
